@@ -1,0 +1,3 @@
+from indoorpositioning.scanner.LinuxWifiScanner import LinuxWifiScanner
+from indoorpositioning.scanner.OSXWifiScanner import OSXWifiScanner
+from indoorpositioning.scanner.WindowsWifiScanner import WindowsWifiScanner
