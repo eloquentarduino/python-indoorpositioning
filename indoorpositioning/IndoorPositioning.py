@@ -180,3 +180,15 @@ class IndoorPositioning:
         clf.fit(X, y)
 
         return clf
+
+    def predict_location(self, clf, x=None):
+        """
+        Run prediction
+        :param clf:
+        :param x:
+        :return: str the location you're in
+        """
+        if x is None:
+            x = self.scan_features()
+
+        return self.classmap.get(clf.predict([x])[0], 'UNKNOWN LOCATION')
