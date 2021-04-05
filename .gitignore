@@ -3,3 +3,4 @@
 venv
 indoorpositioning/tests/data
 indoorpositioning/tests/api.py
+publish

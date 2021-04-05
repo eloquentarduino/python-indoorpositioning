@@ -15,7 +15,7 @@ setup(
   author="Simone Salerno",
   author_email="eloquentarduino@gmail.com",
   url="https://github.com/eloquentarduino/python-indoorpositioning",
-  download_url="https://github.com/eloquentarduino/python-indoorpositioning/blob/master/dist/indoorpositioning-0.0.1.tar.gz?raw=true",
+  download_url="https://github.com/eloquentarduino/python-indoorpositioning/raw/master/dist/indoorpositioning-0.0.1.tar.gz",
   keywords=[
     "indoor positioning"
   ],
