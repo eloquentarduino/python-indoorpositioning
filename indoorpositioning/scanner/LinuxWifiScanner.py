@@ -7,22 +7,23 @@ class LinuxWifiScanner(BaseScanner):
     """
     Scan WiFi networks on Linux (requires iwlist)
     """
-    def __init__(self, interface):
+    def __init__(self, interface, sudo=True):
         """
         Constructor
         :param interface: str WiFi interface
+        :param sudo: bool if use sudo or not (you probably want sudo)
         """
         self.interface = interface
+        self.sudo = sudo
 
     def scan(self, sudo=False):
         """
         Scan
-        :param sudo: bool if use sudo or not (you probably want sudo)
         :return:
         """
         iwlist = ['iwlist', self.interface, 'scan']
 
-        if sudo:
+        if self.sudo:
             iwlist = ['sudo'] + iwlist
 
         return self.parse(check_output(iwlist).decode('utf-8'))

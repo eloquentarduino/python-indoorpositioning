@@ -9,13 +9,13 @@ packages = [
 setup(
   name="indoorpositioning",
   packages=packages,
-  version="0.0.2",
+  version="0.0.3",
   license="MIT",
   description="Hardware-independent indoor positioning using Access points",
   author="Simone Salerno",
   author_email="eloquentarduino@gmail.com",
   url="https://github.com/eloquentarduino/python-indoorpositioning",
-  download_url="https://github.com/eloquentarduino/python-indoorpositioning/raw/master/dist/indoorpositioning-0.0.2.tar.gz",
+  download_url="https://github.com/eloquentarduino/python-indoorpositioning/raw/master/dist/indoorpositioning-0.0.3.tar.gz",
   keywords=[
     "indoor positioning"
   ],
