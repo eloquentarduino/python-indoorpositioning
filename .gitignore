@@ -1,3 +1,5 @@
+.idea
+.DS_Store
 venv
-tests/data
-tests/api
+indoorpositioning/tests/data
+indoorpositioning/tests/api.py

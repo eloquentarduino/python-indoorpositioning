@@ -1,12 +1,9 @@
-import os.path
 from distutils.core import setup
-from glob import glob
-from os.path import isdir
 
 packages = [
   "indoorpositioning",
   "indoorpositioning.scanner",
-  "indoorpositioning.test",
+  "indoorpositioning.tests",
 ]
 
 setup(
